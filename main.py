@@ -3,8 +3,8 @@
 
 
 
-gradepoint1 = input('Enter your course 1 letter grade:')
-credit1 = float(input('Enter your course 1 credit:'))
+gradepoint1 = input('Enter your course 1 letter grade: ')
+credit1 = float(input('Enter your course 1 credit: '))
 
 if gradepoint1 == 'A': 
   grade1 = 4.0 
@@ -28,8 +28,8 @@ else:
 print(f'Grade point for course 1 is: {grade1}')
 
 
-gradepoint2 = input('Enter your course 2 letter grade:')
-credit2 = float(input('Enter your course 2 credit:'))
+gradepoint2 = input('Enter your course 2 letter grade: ')
+credit2 = float(input('Enter your course 2 credit: '))
 
 if gradepoint2 == 'A': 
   grade2 = 4.0 
@@ -52,8 +52,8 @@ else:
 
 print(f'Grade point for course 2 is: {grade2}')
 
-gradepoint3 = input('Enter your course 3 letter grade:')
-credit3 = float(input('Enter your course 3 credit:'))
+gradepoint3 = input('Enter your course 3 letter grade: ')
+credit3 = float(input('Enter your course 3 credit: '))
 
 
 if gradepoint3 == 'A': 
