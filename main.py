@@ -11,7 +11,7 @@ elif gradepoint1 == 'A-':
 elif gradepoint1 == 'B+': 
   grade1 = 3.33
 elif gradepoint1 == 'B': 
-  grade2 = 3.0
+  grade1 = 3.0
 elif gradepoint1 == 'B-': 
   grade1 = 2.67
 elif gradepoint1 == 'C+': 
