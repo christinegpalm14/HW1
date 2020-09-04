@@ -1,8 +1,6 @@
 # Author: Christine Palmer cgp5153@psu.edu
 # No Collaborators
 
-
-
 gradepoint1 = input('Enter your course 1 letter grade: ')
 credit1 = float(input('Enter your course 1 credit: '))
 
@@ -26,7 +24,6 @@ else:
   grade1 = 0.0 
 
 print(f'Grade point for course 1 is: {grade1}')
-
 
 gradepoint2 = input('Enter your course 2 letter grade: ')
 credit2 = float(input('Enter your course 2 credit: '))
@@ -55,7 +52,6 @@ print(f'Grade point for course 2 is: {grade2}')
 gradepoint3 = input('Enter your course 3 letter grade: ')
 credit3 = float(input('Enter your course 3 credit: '))
 
-
 if gradepoint3 == 'A': 
   grade3 = 4.0 
 elif gradepoint3 == 'A-': 
@@ -80,7 +76,3 @@ print(f'Grade point for course 3 is: {grade3}')
 GPA = (grade1 * credit1 + grade2 * credit2 + grade3 * credit3) / (credit1 + credit2 + credit3)  
 
 print(f'Your GPA is: {GPA}')
-
-
-
-##print('Hi, %s.' % name)
